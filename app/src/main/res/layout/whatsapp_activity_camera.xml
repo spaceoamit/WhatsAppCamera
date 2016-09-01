@@ -1,0 +1,125 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@android:color/black"
+    android:orientation="vertical">
+
+    <FrameLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:background="@android:color/black">
+
+        <SurfaceView
+            android:id="@+id/imgSurface"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:visibility="visible" />
+
+        <TextView
+            android:id="@+id/textCounter"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center_horizontal"
+            android:layout_marginTop="10dp"
+            android:background="@drawable/bg_record_video"
+            android:drawableLeft="@drawable/red_dot"
+            android:drawablePadding="10dp"
+            android:gravity="center"
+            android:padding="10dp"
+            android:text="00:00"
+            android:textColor="@android:color/white"
+            android:textSize="14sp" />
+
+
+        <LinearLayout
+            android:id="@+id/llImageModificationBottomOptions"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_gravity="bottom"
+            android:layout_marginLeft="15dp"
+            android:layout_marginRight="15dp"
+            android:gravity="bottom"
+            android:orientation="vertical">
+
+
+            <ImageView
+                android:id="@+id/imgImageDisplay"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_gravity="center_vertical"
+                android:layout_weight="0.25"
+                android:background="@android:color/transparent"
+                android:orientation="horizontal"
+                android:visibility="invisible"></ImageView>
+
+            <RelativeLayout
+                android:id="@+id/rlCaptureOption"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_gravity="center_vertical"
+                android:layout_weight="0.75"
+                android:orientation="horizontal"
+                android:visibility="visible">
+
+                <ImageView
+                    android:id="@+id/imgChangeCamera"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_alignParentRight="true"
+                    android:layout_centerVertical="true"
+                    android:layout_gravity="center_vertical"
+                    android:padding="10dp"
+                    android:src="@drawable/ic_change_camera" />
+
+
+                <LinearLayout
+
+                    android:gravity="center"
+                    android:id="@+id/middleLayout"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:orientation="vertical">
+
+                    <TextView
+
+                        android:padding="5dp"
+                        android:id="@+id/hintTextView"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_centerHorizontal="true"
+                        android:text="Hold for video, tap for photo"
+                        android:textColor="@android:color/white"
+                        android:textSize="14sp" />
+
+                    <ImageView
+                        android:layout_marginBottom="20dp"
+                        android:id="@+id/imgCapture"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_centerHorizontal="true"
+                        android:layout_centerVertical="true"
+                        android:layout_gravity="center_horizontal|center_vertical"
+                        android:src="@drawable/ic_capture" />
+
+                </LinearLayout>
+
+
+                <ImageView
+                    android:id="@+id/imgFlashOnOff"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_alignParentLeft="true"
+                    android:layout_centerVertical="true"
+                    android:layout_gravity="center_vertical"
+                    android:padding="10dp"
+                    android:src="@drawable/ic_flash_auto" />
+
+
+            </RelativeLayout>
+
+
+        </LinearLayout>
+    </FrameLayout>
+
+</LinearLayout>
