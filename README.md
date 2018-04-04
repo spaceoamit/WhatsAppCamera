@@ -8,4 +8,4 @@ Feature:
 - Video recording: you can specify a size default its 25 MB
 - Hold button animation with Object animator to make it same as Whatsapp do.
 
-![alt text](https://github.com/spaceoamit/WhatsAppCamera/blob/master/device-2016-09-01-172745.png=360x480)
+![alt text](https://github.com/spaceoamit/WhatsAppCamera/blob/master/device-2016-09-01-172745.png?=360x480)
