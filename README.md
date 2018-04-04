@@ -9,4 +9,4 @@ Feature:
 - Hold button animation with Object animator to make it same as Whatsapp do.
 
 ![alt text](https://github.com/spaceoamit/WhatsAppCamera/blob/master/device-2016-09-01-172745.png)
-![alt text](https://github.com/spaceoamit/WhatsAppCamera/blob/master/device-2016-09-01-172816.png | width=100)
+![alt text](https://github.com/spaceoamit/WhatsAppCamera/blob/master/device-2016-09-01-172816.png){:height="700px" width="400px"}
