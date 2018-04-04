@@ -7,3 +7,5 @@ Feature:
 - Hold for recording video with high quality
 - Video recording: you can specify a size default its 25 MB
 - Hold button animation with Object animator to make it same as Whatsapp do.
+
+![Alt text](master/device-2016-09-01-172745.png?raw=true "1")
